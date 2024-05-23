@@ -1,0 +1,19 @@
+.divborder {
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.avatarsmall {
+    height:20px;
+    width:20px;
+  }
+
+  .dot {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+  } 

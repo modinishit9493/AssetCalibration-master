@@ -1,0 +1,144 @@
+ @import "bootstrap/scss/bootstrap";
+.App {
+  text-align: center;
+}
+.text-sub-navbar {
+  color: white;
+  font-weight: 500;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  background-color: grey;
+  border-color: white !important;
+}
+td {
+  font-weight: 500;
+}
+.text-sub-navbar:hover {
+text-decoration: underline;
+}
+table, td, th {
+  border: 1px solid;
+}
+
+.text-sub-navbar select {
+  text-decoration: underline;
+  }
+.btn-danger, .btn-success {
+  font-size: 11px !important;
+}
+.btn-lbl {
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+}
+.text-right {
+  text-align: right;
+  margin: auto;
+  padding-right: 5px;
+}
+.div-border-line {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+.btn-float {
+  float: right;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.nav-color {
+  background-color: #19264e;
+}
+.text-color {
+  color: #19264e;
+}
+
+.text-box-color {
+  color: #9cbff9 !important;
+  border-width: 2px !important;
+  border-color: #19264e !important;
+}
+.title-bar {
+  height: 50px;
+  background-color: #9cbff9;
+  display: flex;
+  align-items: center;
+}
+
+.title-font {
+  color: white;
+  font-size: small;
+  margin-left: 2rem;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.form-lbl {
+  color: white;
+  margin-left: 8px;
+}
+
+.btn-custom {
+  font-size: 0.7rem;
+  padding: 0px !important;
+  background-color: #92d050 !important;
+  border-color: #92d050 !important;
+  width: 160px;
+  height: 56px;
+}
+
+.btn-custom1 {
+  font-size: 0.7rem;
+  padding: 0px !important;
+  background-color: #e3593d !important;
+  border-color: #e3593d !important;
+  width: 160px;
+  height: 56px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.form-control.form-control-sm {
+  border-radius: 20px; 
+  line-height: 2rem;   
+  color:#e3593d;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
